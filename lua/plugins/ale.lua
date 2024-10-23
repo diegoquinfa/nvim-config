@@ -13,7 +13,7 @@ return {
         typescript = { "eslint" },
         typescriptreact = { "eslint" },
         lua = { "lua_language_server" },
-        python = { "flake8", "mypy" },
+        python = { "flake8" },
         rust = { "rust_analyzer" },
         golang = { "gopls" },
         zig = { "zls" },

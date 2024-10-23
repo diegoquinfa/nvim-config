@@ -11,8 +11,8 @@ return {
       "vim",
       -- add more arguments for adding more treesitter parsers
       "javascript",
-      "jsx",
       "typescript",
+      "htmldjango",
       "tsx",
       "python",
       "rust",
