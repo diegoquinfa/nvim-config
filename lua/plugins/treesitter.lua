@@ -7,14 +7,17 @@ return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
     ensure_installed = {
+      "c",
+      "cpp",
       "lua",
       "vim",
       -- add more arguments for adding more treesitter parsers
       "javascript",
       "typescript",
-      "htmldjango",
+      "terraform",
       "tsx",
       "python",
+      "go",
       "rust",
       "zig",
       "toml",
@@ -29,6 +32,7 @@ return {
       "markdown",
       "dockerfile",
       "graphql",
+      "vue",
     },
   },
 }
